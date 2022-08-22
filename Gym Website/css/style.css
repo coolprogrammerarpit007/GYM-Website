@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 800;
+    background: url(../img/gym.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Styling My Navigation Container */
+
+
+
+nav ul{
+    border: 0px solid green;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav li{
+    border: 0px solid blue;
+    width: 18%;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 3%;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+nav a:hover{
+    text-transform: uppercase;
+    box-shadow: 4px 0 4px 0 #ffffff;
+    background-color: #A68F97;
+}
+
+.nav-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+figure{
+    flex-basis: 15%;
+    border: 0px solid green;
+}
+  figcaption{
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: left;
+}
+nav{
+    border: 0px solid red;
+    flex-basis: 78%;
+}
+
+/* Styling The GYM's Membership form.. */
+.join-us{
+    border: 0px solid red;
+    padding: 3rem;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.join-us h1{
+    color: white;
+}
+fieldset{
+    margin: 0 auto;
+    padding: 3rem 10rem;
+    border-radius: 10px;
+}
+
+input{
+    margin: 0 auto;
+    display: block;
+    border-radius: 2%;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+#submit{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ************************************ */
+
+
+/* ********************************* */
+
+/* Styling My Footer Section */
+footer{
+    padding: 3rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: wheat;
+}
+
+
+button{
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #506266;
+    color: #818274;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 10px;
+}
